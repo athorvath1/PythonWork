@@ -43,7 +43,7 @@ def both_ends(s):
   if len(s)<2:
     s=''
   else:
-    s=s[0:2]+s[-2:]
+    s=s[0:1]+s[-2:]
     return s
 
 
