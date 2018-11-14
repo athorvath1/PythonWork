@@ -26,8 +26,7 @@
 def donuts(count):
 
   message = 'Number of donuts: '
-  # +++your code here+++
-  if count >= 10:
+   if count >= 10:
     message=message + 'many'
   else:
     message=message + str(count)
@@ -45,8 +44,7 @@ def both_ends(s):
     s=''
   else:
     s=s[0:2]+s[-2:]
-  # +++your code here+++
-  return s
+    return s
 
 
 # C. fix_start
@@ -62,9 +60,6 @@ def fix_start(s):
   first=s[0:1]
   replacement=s.replace(first,"*")
   newstring=first+replacement[1:]
-
-   
-# +++your code here+++
   return newstring
 
 
@@ -80,9 +75,6 @@ def mix_up(a, b):
   newfirst=b[0:2]+a[2:]
   newsecond=a[0:2]+b[2:]
   newstring=newfirst +" " + newsecond
-
-
-  # +++your code here+++
   return newstring
 
 
